@@ -11,3 +11,5 @@ Created a list of favourite fruits. By importing random,  the random method gene
 Created a function called check_guess, to check if guessed letter is in lower case and used if statement in the function to see if the guessed letter is in the word. Defined another function called ask_for_input that checks requests user input, check_guess function defined before is called a while true loop confirms the letter is alphabetical.
 ### Milestone 4:
 Created a Hangman class with two methods (check_guess and ask_for_input). Used for loops, while loops and enumerate functions). Now I can ask for input and it will reduce the number of letters and lives, and replace the letters with _ the chosen word from my list. 
+### Milestone 5: 
+Defined a function called paygame() that took an instance of the Hangman class created in milestone 4. Created a while loop that checkes if number of lives = 0 and prints "You lost!". It aslo checks for the condition that number of letters is greater than 0, so the user is prompted to enter another letter. The laat condition checks if number of lives is greater than 0 and the number of letters is 0, then it prints You won!
